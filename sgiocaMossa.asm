@@ -12,5 +12,5 @@ loop:
     j     loop
 
 delete:
-    sw    $zero, 0($t1)
+    sb    $zero, 0($t1)
     jr    $ra
