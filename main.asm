@@ -22,7 +22,7 @@ main_loop:
 
 game_loop:
     move  $a0, $s0
-
+#beq $a0 -1 playerAI   # SCOMMENTAMI PER GIOCARE CONTRO AI
 playerUmano:
     jal   chiediMossa
     j     dopo
